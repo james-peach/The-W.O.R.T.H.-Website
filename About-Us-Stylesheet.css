@@ -1,0 +1,109 @@
+body {
+  position: relative; 
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  max-height: 1%; 
+}
+.about-us-heading {
+  position: relative; 
+  color: darkgrey;
+  font-size: 40px; 
+}
+
+.about-us-desc {
+  position: relative; 
+  color: white; 
+  font-size: 180%;
+}
+.about-us-picture-1 {
+  position:relative;
+  bottom: 1250px;
+  left: 50px; 
+  margin-right: 800px; 
+  width: 400; 
+  height: 720px; 
+}
+.we-mentor-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 1600px;  
+}
+.we-mentor-desc {
+  position: relative;
+  left: 850px;
+  bottom: 100px; 
+  margin-right: 850px; 
+}
+.we-empower-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 1600px; 
+} 
+.we-empower-desc {
+  position: relative;
+  bottom: 100px; 
+  left: 850px; 
+  margin-right: 850px; 
+}
+.we-build-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 1600px;
+}
+.we-build-desc {
+    position: relative;
+  left: 850px;
+  bottom: 100px; 
+  margin-right: 850px;
+}
+.we-inspire-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 1600px; 
+}
+.we-inspire-desc {
+  position: relative;
+  left: 850px;
+  bottom: 100px; 
+  margin-right: 850px;
+}
+.page-title {
+  margin-right: 1585px;  
+}
+
+.social-media-links {
+  position: relative; 
+  left: 45%;  
+}
+
+.sml-desc-and-links {
+  position: relative; 
+  bottom: 700px; 
+}
+@media screen and (max-width: 1450px) {
+  .what-we-do-heading {
+    bottom: 150px;  
+  }
+  
+  .what-we-do-desc {
+    bottom: 150px;  
+  }
+  
+  .page-title {
+    margin-right: 1025px;  
+  }
+  
+  .about-us-picture-1 {
+    position: relative; 
+    bottom: 1950px; 
+  }
+  
+  body {
+    overflow: scroll;  
+  }
+  
+  .about-us-heading {
+    margin: none; 
+    right: 700px;  
+  }
+}
